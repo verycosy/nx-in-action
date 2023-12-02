@@ -1,0 +1,14 @@
+// Not real world settings. refactor for abstract level
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "CommonJS",
+    "target": "ES2022",
+    "outDir": "./dist"
+  },
+  "include": ["."],
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+}
